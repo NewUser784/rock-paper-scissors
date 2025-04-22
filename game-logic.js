@@ -17,7 +17,9 @@ function getHumanChoice() {
     return humanChoice;
 }
 
-function playRound(humanChoice, computerChoice) {
+function playRound(humanChoice = " ", computerChoice) {
+    humanChoice = humanChoice.toLowerCase();
+
     if (humanChoice === computerChoice) {
         console.log("It's a draw!");
     } else if (humanChoice === "rock" && computerChoice === "scissors") {
