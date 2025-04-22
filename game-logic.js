@@ -11,3 +11,9 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let humanChoice = prompt("Write your choice: ");
+
+    return humanChoice;
+}
+
