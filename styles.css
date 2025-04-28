@@ -6,7 +6,6 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-    border: 2px solid red;
 }
 
 body {
@@ -67,6 +66,7 @@ button {
     font-size: 24px;
     font-weight: 700;
     color: white;
+    border: none;
 }
 
 #but_one {
