@@ -78,7 +78,7 @@ function playRound(clickedButton, computerChoice) {
     if (humanScore === 5 || computerScore === 5) {
         setTimeout(() => {
             checkForWinner();
-        }, 10)
+        }, 100);
     } else {
         checkForWinner();
     }
