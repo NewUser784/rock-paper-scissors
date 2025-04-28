@@ -69,16 +69,33 @@ button {
     border: none;
 }
 
+button:active {
+    width: 145px;
+    height: 145px;
+}
+
 #but_one {
     background-color: rgb(34, 89, 255);
+}
+
+#but_one:hover {
+    background-color: rgb(29, 73, 206);
 }
 
 #but_two {
     background-color: rgb(216, 147, 19);
 }
 
+#but_two:hover {
+    background-color: rgb(184, 126, 19);
+}
+
 #but_three {
     background-color: rgb(59, 201, 59);
+}
+
+#but_three:hover {
+    background-color: rgb(44, 150, 44);
 }
 /* Buttons End */
 
