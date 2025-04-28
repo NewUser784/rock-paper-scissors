@@ -45,3 +45,40 @@ body {
     background-color: rgb(237, 237, 237);
 }
 /* Scoreboard End */
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    gap: 60px;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+#but_one {
+    background-color: rgb(34, 89, 255);
+}
+
+#but_two {
+    background-color: rgb(216, 147, 19);
+}
+
+#but_three {
+    background-color: rgb(59, 201, 59);
+}
+
+/* Buttons End */
